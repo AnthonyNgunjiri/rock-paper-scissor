@@ -1,0 +1,155 @@
+
+
+@import"https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap";*,*:after,*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%
+}
+body{
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 1.6rem;
+    font-family: "Press Start 2P",sans-serif
+}
+.main{
+    min-height: 100vh;
+    background-color: #9ec91e;
+    width: 50vw;
+    margin: 0 auto;
+    position: relative;
+    border: 2px solid #a9d638;
+    justify-content: center;
+    align-items: center;
+}
+.copy{
+    font-size: 1.3rem;
+    
+}
+@media screen and (max-width: 28.125em) {
+    .counter{
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        gap: 0.4rem;
+    }
+}
+.cp{
+    display: inline-flex;
+    gap: 1rem;
+    justify-content: space-around;
+    
+}
+@media screen and (max-width: 28.125em) {
+    .counter{
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+}
+.counter{
+    display: flex;
+    justify-content: center;
+   
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+@media screen and (max-width: 28.125em) {
+    .counter {
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem
+    }
+}
+.computersection{
+    display:grid;
+    justify-content: center;
+    gap: 3rem;
+    margin-bottom: 2rem;
+}
+.result{
+    display:flex;
+    justify-content: center;
+    background-color: orange;
+    width:100%;
+    height: 10vh;
+    align-items: center;
+    margin-bottom: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+
+}
+
+.playersection{
+    display:grid;
+    justify-content: center;
+    gap: 1rem;
+}
+.emojibox{
+    width: 100px;
+    height: 100px;
+    border:2px dotted #000;
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+    margin-bottom: 1rem;
+   
+}
+.button{
+    width: 120px;
+    height: 120px;
+    border-radius: 10px; 
+    
+}
+.buttons{
+   display: block;
+   display:flex;
+   justify-content: center; 
+   align-items: center;
+   gap: 1rem;
+   margin-top: 1rem;
+   transition: 100ms;
+  
+}
+#emo{
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    transition: 100ms;
+    cursor: pointer;
+    
+}
+.buttons:hover{
+    transition: 100ms;
+    cursor: pointer;  
+}
+.text{
+    font-family: "Press Start 2P",sans-serif;
+    text-transform: capitalize;
+}
+@media screen and (max-width: 56.25em) {
+    .main {
+        width:100vw;
+    }
+}
+
+@media screen and (max-width: 28.125em) {
+    html {
+        font-size:50%; 
+    }
+}
+
+@media screen and (max-width: 21.875em) {
+    .button {
+        display:flex;
+        flex-direction: column;
+        gap: 1rem
+    }
+}
